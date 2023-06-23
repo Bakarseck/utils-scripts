@@ -41,3 +41,95 @@
   }
   
 </style>
+
+<div class="container">
+  <div class="cercle1"></div>  
+  <div class="cercle">
+    <div class="cercle1"></div>
+    <div class="cercle1"></div> 
+  </div>
+   <div class="cercle">
+    <div class="cercle1"></div>
+    <div class="cercle1"></div> 
+    <div class="cercle1"></div> 
+    <div class="cercle1"></div> 
+    <div class="cercle1"></div> 
+    <div class="cercle1"></div> 
+    <div class="cercle1"></div> 
+  </div>
+   <div class="cercle">
+    <div class="cercle1"></div>
+    <div class="cercle1"></div> 
+    <div class="cercle1"></div> 
+    <div class="cercle1"></div> 
+    <div class="cercle1"></div> 
+    <div class="cercle1"></div> 
+  </div>
+   <div class="cercle">
+    <div class="cercle1"></div>
+    <div class="cercle1"></div> 
+    <div class="cercle1"></div> 
+    <div class="cercle1"></div> 
+    <div class="cercle1"></div> 
+  </div>
+   <div class="cercle">
+    <div class="cercle1"></div>
+    <div class="cercle1"></div> 
+    <div class="cercle1"></div> 
+    <div class="cercle1"></div> 
+    <div class="cercle1"></div> 
+    <div class="cercle1"></div> 
+  </div>
+   <div class="cercle">
+    <div class="cercle1"></div>
+    <div class="cercle1"></div> 
+    <div class="cercle1"></div> 
+    <div class="cercle1"></div> 
+    <div class="cercle1"></div> 
+    <div class="cercle1"></div> 
+    <div class="cercle1"></div> 
+  </div>
+   <div class="cercle">
+    <div class="cercle1"></div>
+    <div class="cercle1"></div> 
+  </div>
+   <div class="cercle">
+    <div class="cercle1"></div>
+  </div>
+</div>
+<style>
+  *{
+    margin:0;
+    padding:0;
+  }
+  body {
+    background: #926927;
+  }
+  .container {
+    display: flex;
+    flex-direction:column;
+    width:100vw;
+    height:100vh;
+    justify-content:center;
+    align-items:center;
+  }
+  .cercle{
+    display:flex;
+  }
+
+  .cercle1 {
+    height: 20px;
+    width: 20px;
+    border-radius:50%;
+    background: #F8B140;
+    margin:2.5px 5px;
+  }
+</style>
+
+<!-- OBJECTIVE -->
+<!-- Write HTML/CSS in this editor and replicate the given target image in the least code possible. What you write here, renders as it is -->
+
+<!-- SCORING -->
+<!-- The score is calculated based on the number of characters you use (this comment included :P) and how close you replicate the image. Read the FAQS (https://cssbattle.dev/faqs) for more info. -->
+
+<!-- IMPORTANT: remove the comments before submitting -->
