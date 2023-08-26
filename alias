@@ -1,0 +1,21 @@
+#!/bin/bash
+
+# Alias Git
+alias ga='git add'                                alias gm='git commit -m'                          alias gc='git clone'                              alias gs='git status'                             alias gp='git push'                               alias gpl='git pull'                              alias gb='git branch'                             alias gco='git checkout'
+alias gm='git merge'                              alias gd='git diff'                               alias gl='git log'                                alias gsh='git stash'
+
+alias cls='clear'
+# Alias Docker
+alias d='docker'
+alias dc='docker-compose'
+alias di='docker images'
+alias dps='docker ps'
+alias dpsa='docker ps -a'
+alias drm='docker rm'
+alias drmi='docker rmi'
+alias drun='docker run'
+alias dex='docker exec -it'
+alias db='docker build'
+alias dlogs='docker logs'
+alias dv='docker volume'
+alias dn='docker network'
