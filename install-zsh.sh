@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Installation de zsh
-apt-get update
-apt-get install zsh -y
+sudo apt-get update
+sudo apt-get install zsh -y
 
 # Changement du shell par défaut vers zsh
 chsh -s $(which zsh)
